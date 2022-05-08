@@ -37,7 +37,7 @@ class TestAllDocs {
 		// The average essay is less than 500 words long.
 		// What is a good number to put here? Try some different values to
 		// figure that out!
-		Collection<String> pairs = detector.getSuspiciousPairs(500);
+		Collection<String> pairs = detector.getSuspiciousPairs(100);
 		for (String pair : pairs) {
 			System.out.println(pair);
 		}
